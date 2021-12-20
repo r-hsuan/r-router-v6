@@ -1,0 +1,51 @@
+.ul {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #20232a;
+}
+
+.ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ul li a {
+    color: #ffffff;
+    font-family: Segoe UI;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.ul li a:visited {
+    color: #ffffff;
+}
+
+.ul li a:hover {
+    color: #61dafb;
+}
+
+.ul li a.active {
+    color: #61dafb;
+}
+
+.c {
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+}
+/*# sourceMappingURL=App.module.css.map */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <h2>hello</h2>
+            <a href="123">1234</a>
+        </div>
+        <script>
+            console.log(1)
+            const login = true
+            async function a() {
+                console.log('start')
+                const b = await new Promise((resolve, reject) => {
+                    // setTimeout(() => {
+                    //     resolve('ok')
+                    // }, 3000)
+                    console.log('promise')
+                    if (login) {
+                        console.log('t')
+                        resolve('login')
+                    } else {
+                        console.log('y')
+                        reject('no authen')
+                    }
+                    console.log('r')
+                })
+                console.log(b)
+                console.log('end')
+            }
+            console.log(2)
+            a()
+            console.log(3)
+        </script>
+    </body>
+</html>
