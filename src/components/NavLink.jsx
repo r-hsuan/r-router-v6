@@ -7,7 +7,7 @@ function NavLink() {
             <nav>
                 {/* NavLink */}
                 <NavLink
-                    path="/book"
+                    to="/book"
                     style={({ isActive }) => {
                         return { color: isActive ? 'red' : '' }
                     }}
@@ -15,7 +15,7 @@ function NavLink() {
                     Book
                 </NavLink>
                 <NavLink
-                    path="/electronics"
+                    to="/electronics"
                     className={({ isActive }) => (isActive ? style.active : '')}
                 >
                     Electronics
